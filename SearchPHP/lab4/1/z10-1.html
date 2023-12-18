@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Форма выбора таблицы БД</title>
+</head>
+<body>
+<h1>Форма выбора таблицы БД</h1>
+
+<form action="z10-2.php" method="post">
+    <table border=0 cellpadding=5px>
+        <tr>
+            <th rowspan="2">Таблицы</th>
+            <th colspan="2">Отобразить</th>
+        </tr>
+        <tr>
+            <td>структуру</td>
+            <td>содержимое</td>
+        </tr>
+        <tr>
+            <td>Продавцы (sal)</td>
+            <td align="center"><input type="checkbox" name="structure[]" value="sal"></td>
+            <td align="center"><input type="checkbox" name="content[]" value="sal"></td>
+        </tr>
+        <tr>
+            <td>Покупатели (cust)</td>
+            <td align="center"><input type="checkbox" name="structure[]" value="cust"></td>
+            <td align="center"><input type="checkbox" name="content[]" value="cust"></td>
+        </tr>
+        <tr>
+            <td>Заказы (ord)</td>
+            <td align="center"><input type="checkbox" name="structure[]" value="ord"></td>
+            <td align="center"><input type="checkbox" name="content[]" value="ord"></td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Вывести">
+</form>
+</body>
+</html>

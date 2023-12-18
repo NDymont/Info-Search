@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.py~
+
+
+# Flask
+instance/
+.webassets-cache
+.env
+
+
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.py~
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.py~
+*.db
+*.sqlite3
+
+# Игнорировать временные файлы и директории
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Игнорировать директории composer
+/vendor/
+
+# Игнорировать файлы конфигурации PHPStorm
+.idea/
+
+# Игнорировать файлы конфигурации PHP
+php.ini
+
+# Игнорировать автоматически сгенерированные файлы
+*.phpc
+*.phpcs
+*.phpcb
+
+# Игнорировать локальные конфигурации базы данных
+*.sqlite
+*.db
+*.sql
+
+# PyCharm
+*.iml
+*.iws
+*.ipr
+*.iws
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
